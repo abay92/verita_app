@@ -1,0 +1,30 @@
+{
+  "name": "verita_app",
+  "version": "1.0.0",
+  "description": "Verita Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Robai",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "collect.js": "^4.28.6",
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.1",
+    "db-migrate-mysql": "^2.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-resource": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "natsort": "^2.0.2",
+    "node-google-login": "^1.0.1",
+    "node-input-validator": "^4.4.1",
+    "sequelize": "^6.6.5"
+  }
+}

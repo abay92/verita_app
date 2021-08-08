@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "driver": {"ENV":"DB_DRIVER"},
+    "host": {"ENV":"DB_HOST"},
+    "user": {"ENV":"DB_USER"},
+    "password": {"ENV":"DB_PASS"},
+    "database": {"ENV":"DB_NAME"}
+  },
+
+  "prod": {
+    "driver": {"ENV":"DB_DRIVER"},
+    "host": {"ENV":"DB_HOST"},
+    "user": {"ENV":"DB_USER"},
+    "password": {"ENV":"DB_PASS"},
+    "database": {"ENV":"DB_NAME"}
+  }
+}
